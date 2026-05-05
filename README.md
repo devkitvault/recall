@@ -13,6 +13,12 @@ It combines a fast local CLI workflow with a secure cloud vault for cross-device
 
 ## Install Recall CLI
 
+### Installation Types
+
+- Script install (recommended): fastest setup for most users
+- npm package: install via `@devkitvault/recall`
+- Native binaries: direct download from GitHub Releases
+
 ### macOS / Linux
 
 ```sh
@@ -24,6 +30,17 @@ curl -fsSL https://devkitvault.com/recall/install.sh | sh
 ```powershell
 irm https://devkitvault.com/recall/install.ps1 | iex
 ```
+
+### npm
+
+```sh
+npm install -g @devkitvault/recall
+```
+
+### GitHub Releases
+
+Download platform binaries from the releases page:  
+`https://github.com/devkitvault/recall/releases`
 
 ## Quick Start
 
@@ -51,6 +68,20 @@ recall run git-log
 - Environment sets for reusable terminal variables
 - Team-ready org vault support
 - Web dashboard and VS Code extension support
+
+## Feature Comparison
+
+| Feature | Free | Pro | Team |
+| --- | --- | --- | --- |
+| Save commands | Yes | Yes | Yes |
+| List and search commands | Yes | Yes | Yes |
+| Run saved commands | Yes | Yes | Yes |
+| Command groups | No | Yes | Yes |
+| Templates | No | Yes | Yes |
+| Snippets | No | Yes | Yes |
+| Env sets | No | Yes | Yes |
+| Org vaults | No | No | Yes |
+| VS Code extension support | Yes | Yes | Yes |
 
 ## Pricing
 
